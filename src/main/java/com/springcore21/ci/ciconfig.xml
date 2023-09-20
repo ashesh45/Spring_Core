@@ -8,9 +8,16 @@
     http://www.springframework.org/schema/context 
     http://www.springframework.org/schema/context/spring-context.xsd">
     
+    
+    
+    <bean class="com.springcore21.ci.Certi" name="cer">
+      <constructor-arg value="Andriod programming"></constructor-arg>
+    </bean>
+    
     <bean class="com.springcore21.ci.Person" name="person">
-    <constructor-arg value="ashesh"/>
-      <constructor-arg value="45" />
+    <constructor-arg value="ashesh maharjan"/>
+      <constructor-arg value="787"/>
+      <constructor-arg ref="cer"/>
    
     
     </bean>
