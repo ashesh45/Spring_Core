@@ -10,6 +10,10 @@ public class Test {
          Pepsi s1=(Pepsi) context.getBean("s1");
          System.out.println(s1);
          context.registerShutdownHook();
+         
+         System.out.println("++++++++++++++++++++++++++");
+         Sprite s2=(Sprite) context.getBean("s2");
+         System.out.println(s2);
 	}
 
 }

@@ -8,13 +8,20 @@
     http://www.springframework.org/schema/context 
     http://www.springframework.org/schema/context/spring-context.xsd">
     
+   <context:annotation-config/>
+    <bean class="com.springcore21.autoannotation.Address" name="address7">
+    <property name="street" value="kantilok path"/>
+    <property name="city" value="kathmandu"/>
+  </bean>
+  
+  <bean class="com.springcore21.autoannotation.Address" name="address0">
+    <property name="street" value="Bhandari marga"/>
+    <property name="city" value="Hetauda"/>
+  </bean>
+  
+  
+  
+
+<bean class="com.springcore21.autoannotation.Emp" name="emp"/>
    
-   <bean class="com.springcore21.lifecycle.Pepsi" name="s1" init-method="init" destroy-method="destroy" >
-    <property name="price" value="90"/>
-    </bean>
-    
-     <bean class="com.springcore21.lifecycle.Sprite" name="s2">
-     <property name="price" value="100"/>
-    </bean>
-    
     </beans>

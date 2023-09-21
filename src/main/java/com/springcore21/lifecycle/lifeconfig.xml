@@ -12,4 +12,9 @@
    <bean class="com.springcore21.lifecycle.Pepsi" name="s1" init-method="init" destroy-method="destroy" >
     <property name="price" value="90"/>
     </bean>
+    
+     <bean class="com.springcore21.lifecycle.Sprite" name="s2">
+     <property name="price" value="100"/>
+    </bean>
+    
     </beans>
